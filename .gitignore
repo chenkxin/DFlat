@@ -5,3 +5,5 @@ metasurface_library/core/pregen_lookup_tables**
 metasurface_library/core/raw_meta_libraries**
 neural_optical_layer/core/trained_MLP_models/**
 physical_optical_layer/core/material_index/**
+
+__pycache__/
