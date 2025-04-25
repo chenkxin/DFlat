@@ -1,0 +1,8 @@
+sname = "wavelength";
+phase = getsweepresult(sname,"phase");
+T = getsweepresult(sname,"T");
+
+phase=pinch(angle(phase.Ex));
+T=pinch(real(T.T));
+matlabsave("phasey",phase);
+matlabsave("Ty",T);
